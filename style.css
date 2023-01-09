@@ -12,6 +12,7 @@ header {
     height: 50px;
     line-height: 50px;
     background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header * {
@@ -98,6 +99,10 @@ footer {
     background-size: cover;
     background-position: 75%;
     background-image: url('./assets/background2.jpg');
+}
+
+.img {
+    width:67%;
 }
 
 .favicon {
