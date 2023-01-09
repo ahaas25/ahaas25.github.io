@@ -1,8 +1,88 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <title>Aidan Haas' Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <img src="./assets/profile.png" class="fav-ico">
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="section-inner">
+                <img src="./assets/profile.png" class="profile-img">
+                <div class="about-text">
+                    <h1>Aidan Haas</h1>
+                    <h3>About Me</h3>
+                    <p>I'm a Computer Science student studying at the University of Maryland, College Park
+                    <p>
+                    <p>I've always had a passion for coding, and now I'm looking to make it my career!<br>
+                        I have experience in MIPS Assembly, C, C#, C++, Java, Python, SQL, XAML, HTML, CSS, and their
+                        respective IDEs.<br></p>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="projects">
+            <div class="section-inner">
+                <h2>My Projects</h2>
+                <h1>Typing-Test-C (2022)</h1>
+                <img src="./assets/typing-teacher.png" class="img">
+                <p>I wrote this program in C with the goals of clean code, good memory management, and learning C. <br>
+                    Typing-Test-C is a terminal based program which uses the <em>ncurses</em> library. <br>
+                    The program works by providing the user with a prompt of words, which they type as fast as they can.
+                    <br>
+                    Once completed, it prints the user's performance to the screen and saves the results locally, which
+                    can be viewed in the Stats page.</p>
+                <a href="https://github.com/ahaas25/Typing-Test-C">The GitHub page for this project can be found
+                    here</a>
+
+                <h1>Typing-Teacher (2021)</h1>
+                <video controls>
+                    <source
+                        src="https://user-images.githubusercontent.com/94150901/149820428-e1360f02-582d-47ca-a90f-3eaabd2d2a4a.mp4"
+                        type="video/mp4">
+                </video>
+                <p>A program designed to improve user typing speed an accuracy. Written in Java using the AWT library
+                    for graphics.</p>
+                <p>Object was demonstrating Java skills, learning AWT, and creating an intuitive user-interface. This
+                    was written over my 2021 winter break.<br>
+                    The program keeps track of each key and shows the user which keys take them the longest to press and
+                    which they mis-type the most.</p>
+                <a href="https://github.com/ahaas25/Typing-Teacher">The GitHub page for this project can be found
+                    here</a>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="section-inner">
+                <h1>Contact Me</h1>
+                <div class="links">
+                    <img src="https://linkedin.com/favicon.ico" class ="favicon">
+                    <a href="https://linkedin.com/ahaas25">LinkedIn</a>
+                    <p></p>
+                    <img src="https://github.com/favicon.ico" class ="favicon">
+                    <a href="https://github.com/ahaas25">GitHub</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>HTML Made by Aidan Haas</p>
+        <p>Background Photos by Aidan Haas</p>
+        <p>Website Hosted by GitHub</p>
+    </footer>
 </body>
 
 </html>
