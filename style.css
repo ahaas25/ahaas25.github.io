@@ -89,6 +89,13 @@ footer {
     background-image: url('./assets/about-background.JPG');
 }
 
+#services {
+    background-size: cover;
+    background-position: middle;
+    background-image: url('./assets/jfvalois_burrard_inlet.jpg');
+}
+
+
 #projects {
     background-size: cover;
     background-position: middle;
